@@ -35,9 +35,15 @@ Customer can view their order status.
 ### How to Run the project:
 Open the workspace folder where the CMS folder is present. Open the Gitbash to compile and execute the code.
 
-Compilation: mvn compile -Dcheckstyle.skip
+-> Compilation: mvn compile -Dcheckstyle.skip
 
-Execution: mvn exec:java -Dexec.mainClass=com.hexaware.MLP259.util.CliMain
+-> Execution: mvn exec:java -Dexec.mainClass=com.hexaware.MLP259.util.CliMain
+
+### Installation (Software) procedure
+(GitBash): https://git-scm.com/downloads \
+(VS Code): https://code.visualstudio.com/download \
+(JVM): https://www.java.com/en/download \
+(SQL Workbench): https://dev.mysql.com/downloads/workbench
 
 ### Database: The CMS database is also attached in the repository.
 
