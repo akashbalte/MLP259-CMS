@@ -1,10 +1,10 @@
 # MLP259-CMS
-Canteen Management System
+## Canteen Management System
 
-Programming Language: Java
-OOPS Concept: Class, Object, Polymorphism, Abstraction, Encapsulation
+->Programming Language: Java\
+->OOPS Concept: Class, Object, Polymorphism, Abstraction, Encapsulation
 
-About the Code:
+### About the Code:
 1. As a customer,
 can view personal and wallet details
 can order food items
@@ -30,3 +30,15 @@ Customer can place their order in this portal. These orders go to the food vendo
 Food Vendor can accept/deny the order with proper comments.
 Wallet balance should not go negative.
 Customer can view their order status.
+
+
+### How to Run the project:
+Open the workspace folder where the CMS folder is present. Open the Gitbash to compile and execute the code.
+
+Compilation: mvn compile -Dcheckstyle.skip
+
+Execution: mvn exec:java -Dexec.mainClass=com.hexaware.MLP259.util.CliMain
+
+### Database: The CMS database is also attached in the repository.
+
+
